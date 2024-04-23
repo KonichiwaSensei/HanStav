@@ -23,7 +23,7 @@ export default function Hypoteka() {
                             Pomůžeme Vám vybrat vhodný bankovní ústav pro získání hypotéky a pomůžeme Vám ji vyřídit. Hypotéka Vám dokáže velmi efektivně financovat Vaše stavby, které si od nás můžete objednat. Hypotéka, pro naše <Link to="/projekty-rodinnych-domu">projekty rodinných domů</Link> je velmi časté řešení, jak získat finanční prostředky na pořízení rodinného domu.
                             <br />
                             <span className='fs-4 fst-italic'>
-                                <Link to="/kontakt">Kontaktujte nás</Link>
+                                <Link to="/kontakty">Kontaktujte nás</Link>
                                 <span>, pomůžeme Vám vyřídit hypotéku.</span>
                             </span>
                         </p>
@@ -159,7 +159,7 @@ export default function Hypoteka() {
 
 
                     <h1>
-                        <Link to="/kontakt">
+                        <Link to="/kontakty">
                             Kontaktujte nás
                         </Link>, pomůžeme Vám vyřídit a získat hypotéku.
                     </h1>

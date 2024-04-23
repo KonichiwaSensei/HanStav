@@ -28,7 +28,7 @@ export default function Stavby() {
                                     Spolehněte se na korporaci firem Hanspaulské stavitelství s.r.o., Steiner-Projekty, a J&C Dipos. Nabízíme Vám výběr ze široké škály projektů rodinných domů. Nabídka staveb je složena od domů ekonomických až po domy nadstandardní a její rozsah jistě uspokojí každého z Vás, ať máte jakkoli vysoké nároky.
                                     <br />
                                     <span className='fs-4 fst-italic'>
-                                        <Link to="/kontakt">Kontaktujte nás</Link>
+                                        <Link to="/kontakty">Kontaktujte nás</Link>
                                         <span>, budete mít stavby, jaké jste vždy chtěli mít.</span>
                                     </span>
                                 </p>
@@ -137,7 +137,7 @@ export default function Stavby() {
                     <Spacer />
 
                     <h1>
-                        <Link to="/kontakt">
+                        <Link to="/kontakty">
                             Kontaktujte nás
                         </Link>, Vaše stavby budou levné a špičkově provedené.
                     </h1>

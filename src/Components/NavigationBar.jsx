@@ -85,7 +85,7 @@ export default function NavigationBar() {
                     </Nav>
 
                     <Nav>
-                        <LinkContainer to="/kontakt">
+                        <LinkContainer to="/kontakty">
                             <Nav.Link>Kontakt</Nav.Link>
                         </LinkContainer>
 

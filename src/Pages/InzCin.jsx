@@ -41,7 +41,7 @@ export default function InzCin() {
                         </div>
                         <p>
                             <span className='fs-4 fst-italic'>
-                                <Link to="/kontakt">Kontaktujte nás</Link>
+                                <Link to="/kontakty">Kontaktujte nás</Link>
                                 <span>, naše inženýrská činnost Vám velmi pomůže s úřady.</span>
                             </span>
                         </p>
@@ -94,7 +94,7 @@ export default function InzCin() {
                     </Card>
 
                     <h1>
-                        <Link to="/kontakt">
+                        <Link to="/kontakty">
                             Kontaktujte nás
                         </Link>, naše inženýrská činnost Vám velmi pomůže vše směřovat k úspěšnému cíli.
                     </h1>

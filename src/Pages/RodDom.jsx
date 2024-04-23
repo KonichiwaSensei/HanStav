@@ -40,7 +40,7 @@ export default function RodDom() {
                             Projekty rodinných domů, které si můžete na našich stránkách stáhnout, Vám dokonale poslouží pro inspiraci, jak by měl Váš dům vypadat. Samozřejmě takové <Link to="/stavby">stavby</Link> Vám můžeme i nabídnout k prodeji, výstavbě a celé realizaci. Náš katalog projektů rodinných domů pro Vás sestavili špičkoví architekti s citem na Vaše požadavky a moderní pojetí domů s množstvím funkčních prvků pro Vaše pohodlí.
                             <br />
                             <span className='fs-4 fst-italic'>
-                                <Link to="/kontakt">Kontaktujte nás</Link>
+                                <Link to="/kontakty">Kontaktujte nás</Link>
                                 <span>, projekty rodinných domů se Vám budou líbit.</span>
                             </span>
                         </p>
@@ -79,7 +79,7 @@ export default function RodDom() {
                     </Card>
 
                     <h1>
-                        <Link to="/kontakt">
+                        <Link to="/kontakty">
                             Kontaktujte nás
                         </Link>, sestavíme Vám projekt rodinného domu přesně podle Vašich představ.
                     </h1>

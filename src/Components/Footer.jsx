@@ -7,7 +7,7 @@ export default function Footer() {
 
     return (
         <>
-            <Link to="/kontakt" className='footer_kontakt'>
+            <Link to="/kontakty" className='footer_kontakt'>
                 <footer className="footer bg-body-tertiary ">         
                     <Container className="fluid d-flex align-items-center justify-content-around p-4 border-bottom">
                         <Row>

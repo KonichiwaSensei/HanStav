@@ -56,7 +56,7 @@ export default function ImageCarousel() {
                 <Link to="/reality">
                     <img src="/images/reference/kamycka/kamycka1.jpg" className="d-block img-fluid rounded w-100" text="First slide" />
                 </Link>                  <Carousel.Caption>
-                    <Link className='link-white fs-2' to="/kontakt">
+                    <Link className='link-white fs-2' to="/kontakty">
                         Vyřízení Dotace
                     </Link>
                     {/* <p>
@@ -70,7 +70,7 @@ export default function ImageCarousel() {
                     <img src="/images/reference/tobrucka_stavebni_dozor/tobrucka_stavebni_dozor1.jpg" className="d-block img-fluid rounded w-100" text="First slide" />
                 </Link>
                 <Carousel.Caption>
-                    <Link className='link-white fs-2' to="/kontakt">
+                    <Link className='link-white fs-2' to="/kontakty">
                         Stavební Dozor
                     </Link>
                     {/* <p>
@@ -94,7 +94,7 @@ export default function ImageCarousel() {
             </Carousel.Item>
 
             <Carousel.Item>
-                <Link to="/kontakt">
+                <Link to="/kontakty">
                     <img src="/images/reference/potesil/potesil1.jpg" className="d-block img-fluid rounded w-100" text="First slide" />
                 </Link>
                 <Carousel.Caption>
@@ -106,11 +106,11 @@ export default function ImageCarousel() {
             </Carousel.Item>
 
             <Carousel.Item>
-                <Link to="/kontakt">
+                <Link to="/kontakty">
                     <img src="/images/reference/moby/moby1.jpg" className="d-block img-fluid rounded w-100" text="First slide" />
                 </Link>
                 <Carousel.Caption>
-                    <Link className='link-white fs-2' to="/kontakt">
+                    <Link className='link-white fs-2' to="/kontakty">
                         Servis pro Bytové Domy - SVJ, BD
                     </Link>
 
@@ -118,11 +118,11 @@ export default function ImageCarousel() {
             </Carousel.Item>
 
             <Carousel.Item>
-                <Link to="/kontakt">
+                <Link to="/kontakty">
                     <img src="/images/reference/potesil/potesil2.jpg" className="d-block img-fluid rounded w-100" text="First slide" />
                 </Link>
                 <Carousel.Caption>
-                    <Link className='link-white fs-2' to="/kontakt">
+                    <Link className='link-white fs-2' to="/kontakty">
                         A mnoho dalšího…
                     </Link>
                     {/* <p>

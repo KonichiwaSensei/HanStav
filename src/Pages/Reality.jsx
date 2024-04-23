@@ -27,7 +27,7 @@ export default function Reality() {
                             <br />
                             <br />
                             <span className='fs-4 fst-italic'>
-                                <Link to="/kontakt">Kontaktujte nás</Link>
+                                <Link to="/kontakty">Kontaktujte nás</Link>
                                 <span>, seženeme Vám Vaše vysněné reality, anebo úspěšně prodáme ty, které chcete nabídnout k prodeji.</span>
                             </span>
                         </p>
@@ -66,7 +66,7 @@ export default function Reality() {
                         <p className='fs-5'>
                             V rámci prezentovaných developerských projektů Vám také <span className='fw-bold fst-italic'>poskytujeme odborné informace o pozemcích i z hlediska realit</span>. Dále služby související se získáním finančních zdrojů pro koupi pozemků formou realitních obchodů (prodej bytů, domů nebo pozemků).
                             <br />
-                            Pokud chcete koupit nějaké reality a potřebujete s tím odborně pomoci, či poradit, neváhejte a <Link to="/kontakt">kontaktuje nás</Link>, <span className='fw-bold fst-italic'>spolehlivě, diskrétně a efektivně</span> Vám pomůžeme.
+                            Pokud chcete koupit nějaké reality a potřebujete s tím odborně pomoci, či poradit, neváhejte a <Link to="/kontakty">kontaktuje nás</Link>, <span className='fw-bold fst-italic'>spolehlivě, diskrétně a efektivně</span> Vám pomůžeme.
                         </p>
                         <p className='fs-4 fst-italic'>
                         Popřípadě Vaše požadavky, či dotazy na naše služby a nabídky nemovitostí k prodeji směrujte prosím na naši emailovou adresu <a href='mailto:jeronymhasek@seznam.cz'>jeronymhasek@seznam.cz</a>.

@@ -26,7 +26,7 @@ export default function ProjKan() {
                             Pokud máte vlastní nápady na celkové dispozice Vašeho vysněného domu, rádi budeme s Vámi spolupracovat, abychom dokázali realizovat Vaše požadavky a přání. Práce naší projekční kanceláře na vypracování dokumentace Vašeho rodinného domu je ztvárněním Vašich představ, požadavků, ale také finančních možností. Vlastní projektové přípravě je nutné věnovat dostatek času.
                             <br />
                             <span className='fs-4 fst-italic'>
-                                <Link to="/kontakt">Kontaktujte nás</Link>
+                                <Link to="/kontakty">Kontaktujte nás</Link>
                                 <span>, naše projekční kancelář se Vám ráda přizpůsobí při plnění Vašich snů.</span>
                             </span>
                         </p>
@@ -66,7 +66,7 @@ export default function ProjKan() {
                     </Card>
 
                     <h1>
-                    Naše <Link to="/inzenyrska-cinnost">Inženýrská činnost</Link> Vám provede komplexní projektovou přípravu projektů, včetně územního a stavebního řízení. Pokud máte jakékoli dotazy, ohledně Vaší spolupráce, či součinnosti s naší projekční kanceláří, neváhejte a <Link to="/kontakt">kontaktujte nás</Link>, rádi s Vámi vyspecifikujeme to nejlepší řešení.
+                    Naše <Link to="/inzenyrska-cinnost">Inženýrská činnost</Link> Vám provede komplexní projektovou přípravu projektů, včetně územního a stavebního řízení. Pokud máte jakékoli dotazy, ohledně Vaší spolupráce, či součinnosti s naší projekční kanceláří, neváhejte a <Link to="/kontakty">kontaktujte nás</Link>, rádi s Vámi vyspecifikujeme to nejlepší řešení.
                     </h1>
 
                 </Container>

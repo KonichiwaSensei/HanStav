@@ -37,7 +37,7 @@ function App() {
           <Route path="/projekcni-kancelar" element={<ProjKan />} />
           {/* <Route path="/hypoteka" element={<Hypoteka />} /> */}
           <Route path="/reality" element={<Reality />} />
-          <Route path="/kontakt" element={<Kontakt />} />
+          <Route path="/kontakty" element={<Kontakt />} />
         </Routes>
 
         <Footer />
