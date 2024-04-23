@@ -1,0 +1,270 @@
+// Default variable overrides
+$body-bg: #084190;
+$body-color: #343a40;
+$body-emphasis-color: black;
+$body-secondary-bg: #343a40;
+$body-secondary-color: #f8f9fa;
+$body-tertiary-bg: #f8f9fa;
+$body-tertiary-color: #084190;
+$dropdown-bg: $body-tertiary-bg;
+$font-family-monospace: Arial;
+$font-family-sans-serif: Arial;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  // scroll-behavior: auto;
+  // overflow: hidden;
+
+  &::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/logoOLD.png');
+    background-repeat: repeat;
+    background-size: auto;
+    opacity: 0.1;
+  }
+
+  a {
+    pointer-events: auto;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    color: #2370DB;
+    transition: text-decoration 0.3s ease;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.centered-ul {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-contact-title {
+  justify-self: end;
+}
+
+.footer-main-title {
+  text-align: start;
+}
+
+.hans-card-blue {
+  background-color: #08419080;
+  border-color: #f8f9fa80;
+  color: #f8f9fa;
+  margin-bottom: 1.5rem;
+
+  h1 {
+    font-weight: bold;
+  }
+}
+
+.hans-card-white {
+  background-color: #f8f9fa;
+  margin-bottom: 1.5rem;
+
+  h1 {
+    color: #084190;
+    font-weight: bold;
+  }
+}
+
+.hidden-label {
+  display: none;
+  color: #f8f9fa80;
+  z-index: -1;
+}
+
+.home {
+  .carousel {
+    justify-content: center;
+    text-shadow: 0px 0px 5px $body-color;
+
+    .carousel-inner {
+      img {
+        max-width: 100%;
+        height: 10em;
+        object-fit: cover;
+        object-position: center;
+        background-color: #084190;
+        opacity: 0.9;
+      }
+
+      .carousel-caption {
+        bottom: 5rem; // ONLY WHEN NO PARAGRAPH
+      }
+    }
+  }
+
+  .divider {
+    color: $body-secondary-color;
+  }
+}
+
+.link-blue {
+  color: $body-tertiary-color;
+}
+
+.link-body {
+  color: $body-color;
+}
+
+.link-white {
+  color: #f8f9fa;
+}
+
+.mapycz {
+  box-shadow: 0px 0px 5px #f8f9fa;
+}
+
+.modal {
+  color: $body-secondary-color;
+  text-align: center;
+
+  .modal-title {
+    font-weight: bold;
+  }
+
+  .modal-content {
+    background-color: #084190f5;
+  }
+
+  .btn-close {
+    filter: brightness(0) invert(1);
+  }
+
+  img {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+.page-container {
+  .text-div {
+    color: $body-secondary-color;
+  }
+}
+
+.pdf {
+  z-index: 1;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, width 0.3s ease; 
+
+  &:hover {
+    box-shadow: 0px 0px 1px #f8f9fa;
+    width: 101%;
+  }
+
+  &:hover+.hidden-label {
+    display: block;
+    position: relative;
+    bottom: 1.25rem;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+}
+
+.reference-container {
+  .reference-grid {
+    display: grid;
+    grid-gap: 20px;
+    align-content: flex-start;
+  }
+
+  .reference-card {
+    background-color: $body-secondary-color;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      background-color: $body-bg;
+      color: #f8f9fa;
+
+      .card-body {
+        .card-title {
+          color: #f8f9fa;
+        }
+      }
+    }
+
+    .card-body {
+      height: fit-content;
+
+      .card-title {
+        color: #084190;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.text-blue{
+  color: #084190;
+}
+
+.footer_kontakt{
+  text-decoration: none;
+  color: $body-color;
+  // cursor: default;
+}
+
+.pdf_stahnout{
+  color: $body-secondary-color;
+}
+
+iframe{
+  color: $body-secondary-color;
+}
+
+.pdf_modal_header{
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+// MEDIA
+@media only screen and (max-width: 600px) {
+  .footer{
+    h5{
+      font-size: 1rem !important;
+    }
+    .kontakty_footer{
+      .kontaky_footer_row{
+        flex-direction: column !important;
+      }
+    }
+  }
+
+  .fs-4{
+    font-size: 1.20rem !important;
+  }
+
+  .navbar-toggler{
+    padding: 0.1em 0.3em;
+  }
+}
